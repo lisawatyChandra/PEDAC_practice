@@ -47,3 +47,4 @@ end
 
 puts select_vowels("the quick brown fox") == "euioo"
 puts select_vowels("I wandered lonely as a cloud") == "Iaeeoeaaou"
+# select_vowels('')

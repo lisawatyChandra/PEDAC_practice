@@ -35,8 +35,6 @@ def select_char(string, char)
     counter = 0
 
     loop do
-        break if string.size == counter
-
         current_char = string[counter]
 
         if current_char == char
@@ -44,6 +42,16 @@ def select_char(string, char)
         end
 
         counter += 1
+        break if string.size == counter
+        # placing exit condition after loop has
+        # iterated once will cause an infinite loop
+        # if input string is an empty string
+        # since after loop has iterated once
+        # counter would be incremented from 0 to 1
+        # and thus exit condition
+        # `counter == 1 == 0 == string.size`
+        # would never be met, would never evaluate
+        # as true
     end
 
     selected_chars
