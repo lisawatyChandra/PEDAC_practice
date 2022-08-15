@@ -11,15 +11,18 @@
 
 # EXAMPLES / TEST CASES:
 # double_numbers([1, 2, 3]) == [2, 4, 6]
-# double_numbers([]) == 
+# double_numbers([]) == []
+
+# GOAL:
 
 # DATA STRUCTURE:
 # Array -> Array
 
 # ALGORITHM:
 # - Iterate over each integer in input array
+# - retrieve current integer
 # - multiply current integer by 2
-# - push transformed element into a new array `doubled_numbers`
+# - push current integer into a new array `doubled_numbers`
 # - return `doubled_numbers`
 
 # CODING WITH INTENT

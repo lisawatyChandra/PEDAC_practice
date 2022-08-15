@@ -5,9 +5,10 @@
 #2 Understand the examples and test cases
 #3 Formulate the goal
 
-# PROBLEM: you are given a string of characters, 
-# you are tasked with finding all occurrences of 
-# a given character from the input string, 
+# PROBLEM: You are given a string of characters
+# and a character string. Uou are tasked with 
+# finding all occurrences of the given character
+# string from the input string, 
 # every time that character occurs in the given string, 
 # pick that character out of the given string, 
 # accumulate all occurences of that character in 

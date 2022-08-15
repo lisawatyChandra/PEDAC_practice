@@ -55,7 +55,9 @@ def select_fruit(produce)
         # placing break statement at the bottom
         # will cause infinite loop in this case
         # because the loop will always execute at
-        # least once, and we've incremented the
+        # least once, and in the body of the first
+        # iteration just before we reach the exit
+        # condition, we incremented the
         # counter from 0 to 1 in the first iteration
         # of the loop, thus counter will never equal
         # 0 after the first iteration, and if the
